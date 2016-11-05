@@ -18,6 +18,8 @@ interface State {
   name: string
 }
 
+// todo https://github.com/browniefed/react-native-screens/blob/master/app/screens/login/login1.js
+
 function mapDispatchToProps(dispatch) {
   return {
     setUser: name => dispatch(setUser(name)),
