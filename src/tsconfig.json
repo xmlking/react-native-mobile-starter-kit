@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "es2015",
+    "target": "es2015",
+    "moduleResolution": "node",
+    "outDir": "../build",
+    "noImplicitAny": true,
+    "jsx": "react",
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "preserveConstEnums": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "typeRoots": [
+      "../node_modules/@types"
+    ]
+  },
+  "compileOnSave": false
+}
