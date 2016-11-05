@@ -10,7 +10,8 @@ import Login from './login/';
 import Home from './home/';
 import Blank from './blank/';
 import Splash from './splash/';
-import SideBar from './side-bar/';
+import CounterContainer from './counter/';
+import SideBar from './shared/components/side-bar/';
 import { statusBarColor } from './shared/styles/base-theme';
 
 Navigator.prototype.replaceWithAnimation = function replaceWithAnimation(route) {
@@ -120,6 +121,8 @@ export default class AppNavigator extends Component<Props, State> {
         return <Home navigator={navigator} />;
       case 'blank':
         return <Blank navigator={navigator} />;
+      case 'counter':
+        return <CounterContainer navigator={navigator} />;
       default :
         return <Login navigator={navigator} />;
     }

@@ -7,7 +7,11 @@ import { replaceRoute } from '../shared/actions/route';
 import { setUser } from './login.actions';
 import styles from './styles';
 
-const background = require('../assets/images/shadow.png');
+//https://github.com/browniefed/react-native-screens/blob/master/app/screens/login/login1.js
+//const background = require('../assets/images/shadow.png');
+// const background = require('./img/login-background.png');
+const background = require('./img/female-shadow.jpg');
+const loginMark = require('./img/login-mark.png');
 
 interface Props {
   setUser(name: string)
@@ -17,8 +21,6 @@ interface Props {
 interface State {
   name: string
 }
-
-// todo https://github.com/browniefed/react-native-screens/blob/master/app/screens/login/login1.js
 
 function mapDispatchToProps(dispatch) {
   return {

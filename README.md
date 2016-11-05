@@ -21,11 +21,6 @@ yarn
 react-native link
 ```
 
-Start React Native Server:
-
-```sh
-npm start
-```
 
 Build the source-code with TypeScript:
 
@@ -35,6 +30,12 @@ npm run build
 
 # Build and watch for changes
 npm run watch
+```
+
+Start React Native Server:
+
+```sh
+npm start
 ```
 
 ### Debug

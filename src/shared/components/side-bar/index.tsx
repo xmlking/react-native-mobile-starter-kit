@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Content, Text, List, ListItem } from 'native-base';
 
-import { setIndex } from '../shared/actions/list';
-import { closeDrawer } from '../shared/actions/drawer';
-import { replaceOrPushRoute } from '../shared/actions/route';
-import myTheme from '../shared/styles/base-theme';
+import { setIndex } from '../../actions/list';
+import { closeDrawer } from '../../actions/drawer';
+import { replaceOrPushRoute } from '../../actions/route';
+import myTheme from '../../styles/base-theme';
 import styles from './styles';
 
 interface Props {
@@ -42,6 +42,9 @@ export default class SideBar extends Component<Props, State> {
           </ListItem>
           <ListItem button onPress={() => this.navigateTo('blank')} >
             <Text>Blank Page</Text>
+          </ListItem>
+          <ListItem button onPress={() => this.navigateTo('counter')} >
+            <Text>Counter Page</Text>
           </ListItem>
         </List>
       </Content>

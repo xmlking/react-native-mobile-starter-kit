@@ -3,6 +3,8 @@ import { Provider } from 'react-redux';
 import App from './app.component';
 import configureStore from './app.store';
 
+//import configureCounterStore from './counter/counter.store';
+
 interface Props {
 
 }
