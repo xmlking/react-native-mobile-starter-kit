@@ -26,16 +26,16 @@ Build the source-code with TypeScript:
 
 ```sh
 # Build once
-npm run build
+yarn run build
 
 # Build and watch for changes
-npm run watch
+yarn run watch
 ```
 
 Start React Native Server:
 
 ```sh
-npm start
+yarn start
 ```
 
 ### Debug
@@ -52,13 +52,13 @@ react-native log-android
 #### iOS Simulator
 
 ```sh
-npm run ios
+yarn run ios
 ```
 
 #### Android Simulator
 
 ```sh
-npm run android
+yarn run android
 ```
 
 ### Reset 
