@@ -8,8 +8,8 @@ Mobile Starter Kit for [React Native](https://facebook.github.io/react-native/) 
 Clone or fork this repository:
 
 ```sh
-git clone https://github.com/xmlking/mobile-starter-kit.git
-cd mobile-starter-kit
+git clone https://github.com/xmlking/react-native-mobile-starter-kit.git
+cd react-native-mobile-starter-kit
 ```
 
 Install dependencies:
